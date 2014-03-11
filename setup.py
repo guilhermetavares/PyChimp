@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='pychimp',
-    version=__import__('pychimp').__version__,
+    version='1.2',
     description='A reusable Django app for queuing the sending of email',
     author='Hunter Ford',
     author_email='hunterford@gmail.com',

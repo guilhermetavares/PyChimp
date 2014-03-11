@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pychimp
+Version: 1.2
+Summary: A reusable Django app for queuing the sending of email
+Home-page: http://code.google.com/p/pychimp/
+Author: Hunter Ford
+Author-email: hunterford@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

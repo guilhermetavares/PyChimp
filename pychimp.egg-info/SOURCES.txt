@@ -1,0 +1,8 @@
+README
+setup.py
+pychimp/__init__.py
+pychimp/pychimp.py
+pychimp.egg-info/PKG-INFO
+pychimp.egg-info/SOURCES.txt
+pychimp.egg-info/dependency_links.txt
+pychimp.egg-info/top_level.txt
