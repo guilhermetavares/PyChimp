@@ -22,7 +22,7 @@ class PyChimp(object):
     # Cache the user api_key so we only have to log in once per client instantiation
     secure = False
 
-    def __init__(self, apikey, secure=False):
+    def __init__(self, apikey, secure=False, us_version='us3'):
         '''
         Connect to the MailChimp API for a given list.
 
@@ -30,7 +30,7 @@ class PyChimp(object):
         @param string $secure Whether or not this should use a secure connection
         '''
         self.secure = secure
-        self.apiUrl = urlparse('http://us3.api.mailchimp.com/%s/?output=json' % self.version)
+        self.apiUrl = urlparse('http://%s.api.mailchimp.com/%s/?output=json' % (us_version, self.version))
         self.api_key = apikey
 
     def useSecure(self, val):
