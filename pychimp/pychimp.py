@@ -31,6 +31,7 @@ class PyChimp(object):
         '''
         self.secure = secure
         self.apiUrl = urlparse('http://%s.api.mailchimp.com/%s/?output=json' % (us_version, self.version))
+
         self.api_key = apikey
 
     def useSecure(self, val):
